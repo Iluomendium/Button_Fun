@@ -14,6 +14,8 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property (weak, nonatomic) IBOutlet UILabel *statusLable;
+
 @property (strong, nonatomic) BIDViewController *viewController;
 
 @end
