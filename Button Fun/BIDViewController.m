@@ -13,6 +13,6 @@
 - (IBAction)buttonPressed:(UIButton *)sender {
     NSString *title = [sender titleForState:UIControlStateNormal];
     NSString *plainText = [NSString stringWithFormat:@"%@ button pressed.", title];
-    statusLable.text = plainText;
+    _statusLable.text = plainText;
 }
 @end
